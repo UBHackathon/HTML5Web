@@ -1,0 +1,21 @@
+#name
+	{
+		font-size: 35pt;
+	}
+#login
+	{
+		margin:auto;
+
+		position:absolute;
+		right:20%;
+
+	}
+p.login
+	{
+		font-size: 20pt;
+	}
+input
+	{
+ 	box-shadow: 5px 5px 5px #888888;
+	border-radius:25px;
+	}

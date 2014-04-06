@@ -1,0 +1,22 @@
+#get_location
+	{
+		margin:auto;
+		position:absolute;
+		right:20%;
+
+	}
+p.location
+	{
+		font-size: 25pt;
+	}
+
+select,input
+	{
+ 	box-shadow: 5px 5px 5px #888888;
+	}
+html, body, #map-canvas 
+	{
+        height: 100%;
+      	}
+#panel {
+      }

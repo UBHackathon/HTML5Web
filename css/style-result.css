@@ -1,0 +1,16 @@
+#name
+	{
+		font-size: 35pt;
+	}
+#result
+	{
+		margin:auto;
+
+		position:absolute;
+		left:10%;
+
+	}
+p.result
+	{
+		font-size: 20pt;
+	}
