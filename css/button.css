@@ -1,0 +1,39 @@
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: none; }
+
+.button {
+	-webkit-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.98) 0 1px 0 0;
+	background-color:#EEE;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border:1px solid #999;
+	color:#666;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
+	font-size:11px;
+	font-weight:700;
+	padding:2px 6px;
+	height:28px
+}
+  .button:hover {
+    text-decoration: none; }
+  .button:active {
+    position: relative;
+    top: 1px; }
+  .button:hover {
+    background-color: #c71f1f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e44e4e), to(#c71f1f));
+    background: -moz-linear-gradient(top, #e44e4e, #c71f1f);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e44e4e', endColorstr='#c71f1f'); }
+  .button:active {
+    background-color: #e44e4e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#dd2222), to(#e44e4e));
+    background: -moz-linear-gradient(top, #dd2222, #e44e4e);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd2222', endColorstr='#e44e4e');
+    color: #0000ff; }
